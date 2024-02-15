@@ -1,0 +1,5 @@
+REPO="https://raw.githubusercontent.com/zoolztheaz/XDG/_/"
+
+
+
+wget -O /root/.config/rclone/rclone.conf "${REPO}___cfg___conf___js___/rclone.conf"
