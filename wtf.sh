@@ -20,8 +20,8 @@ green='\e[0;32m'
 TIME=$(date '+%d %b %Y')
 ipsaya=$(wget -qO- ipinfo.io/ip)
 TIMES="10"
-CHATID="6191040634"
-KEY="6597719735:AAHk4rVwhXypqQpNZEjOLCkEAkLaj4WWCJ0"
+CHATID="-1001993310646"
+KEY="6983372420:AAGE8ufkchnJ84wFrPTHBuOny0ah12RpsAk"
 URL="https://api.telegram.org/bot$KEY/sendMessage"
 # ===================
 MYIP=$(curl -sS ipv4.icanhazip.com)
@@ -286,9 +286,9 @@ clear
 echo -e "   |\e[1;32mPlease Select a Domain Type Below \e[0m|"
 echo -e "   '----------------------------------'"
 echo -e "     \e[1;32m1)\e[0m Domain pribadi (wajib punya domain)"
-echo -e "     \e[1;32m2)\e[0m Random Domain "
+#echo -e "     \e[1;32m2)\e[0m Random Domain "
 echo -e "   ------------------------------------"
-read -p "   Please select numbers 1-2 or Any Button(Random) : " host
+read -p "   Please select numbers 0-1  : " host
 echo ""
 if [[ $host == "1" ]]; then
 echo -e "   \e[1;32m_______________________________$NC"
@@ -319,7 +319,7 @@ restart_system() {
     TIMEZONE=$(printf '%(%H:%M:%S)T')
     TEXT="
 <code>────────────────────</code>
-<b> 🟢 NOTIFICATIONS INSTALL 🟢</b>
+<b> ⚠️ AUTOSCRIPT PREMIUM ⚠️</b>
 <code>────────────────────</code>
 <code>ID     : </code><code>$USRSC</code>
 <code>Domain : </code><code>$domain</code>
@@ -329,7 +329,7 @@ restart_system() {
 <code>Exp Sc : </code><code>$EXPSC</code>
 <code>────────────────────</code>
 <i>Automatic Notification from Github</i>
-"'&reply_markup={"inline_keyboard":[[{"text":"⭐ᴏʀᴅᴇʀ⭐","url":"https://t.me/zoolztheaz"},{"text":"⭐ɪɴꜱᴛᴀʟʟ⭐","url":"https://wa.me/6281289275316"}]]}'
+"'&reply_markup={"inline_keyboard":[[{"text":"💸ᴏʀᴅᴇʀ💸","url":"https://t.me/MAZ_FARUK"},{"text":"💰ɪɴꜱᴛᴀʟʟ💰","url":"https://wa.me/6283805609815"}]]}'
     curl -s --max-time $TIMES -d "chat_id=$CHATID&disable_web_page_preview=1&text=$TEXT&parse_mode=html" $URL >/dev/null
 }
 clear
