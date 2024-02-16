@@ -538,7 +538,7 @@ print_install "Memasang Service limit Quota"
 wget raw.githubusercontent.com/Tikusmerdeka/Beckendv5/main/Fls/limit.sh && chmod +x limit.sh && ./limit.sh
 
 cd
-wget -q -O /usr/bin/limit-ip "${REPO}___files___/limit-ip"
+wget -q -O /usr/bin/limit-ip "${REPO}Fls/limit-ip"
 chmod +x /usr/bin/*
 cd /usr/bin
 sed -i 's/\r//' limit-ip
@@ -602,9 +602,9 @@ systemctl enable trip
 mkdir -p /usr/local/kyt/
 wget -q -O /usr/local/kyt/udp-mini "${REPO}Fls/udp-mini"
 chmod +x /usr/local/kyt/udp-mini
-wget -q -O /etc/systemd/system/udp-mini-1.service "${REPO}___files___/udp-mini-1.service"
-wget -q -O /etc/systemd/system/udp-mini-2.service "${REPO}___files___/udp-mini-2.service"
-wget -q -O /etc/systemd/system/udp-mini-3.service "${REPO}___files___/udp-mini-3.service"
+wget -q -O /etc/systemd/system/udp-mini-1.service "${REPO}Fls/udp-mini-1.service"
+wget -q -O /etc/systemd/system/udp-mini-2.service "${REPO}Fls/udp-mini-2.service"
+wget -q -O /etc/systemd/system/udp-mini-3.service "${REPO}Fls/udp-mini-3.service"
 systemctl disable udp-mini-1
 systemctl stop udp-mini-1
 systemctl enable udp-mini-1
