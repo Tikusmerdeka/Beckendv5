@@ -2,7 +2,7 @@
 ![alt text](https://github.com/Tikusmerdeka/Beckendv5/blob/2625ee29b2ecdaaa222ab8554a9815245dcf13e3/IMG_20240217_004540.jpg?raw=true)
 
 #IZIN IP KE ADMIN 
-<br> WHATSAPP : wa.me/6283805609815
+<br> WHATSAPP : https://wa.me/6283805609815
 <br> TELEGRAM : https://t.me/MAZ_FARUK
  <br>FREES KOK BANG NGAPAIN SEWA SC 😋😋😋
 
