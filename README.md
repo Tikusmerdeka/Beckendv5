@@ -5,4 +5,11 @@
 
 
 # INSTALLER 1
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/76937659/153705486-44e6c1b2-74fa-4d44-be1c-36c8fdb83331.gif"/>
+</p>
+
 <pre><code>apt install -y && apt update -y && apt upgrade -y && apt install lolcat -y && gem install lolcat && wget -q https://raw.githubusercontent.com/Tikusmerdeka/Beckendv5/main/wtf.sh && chmod +x wtf.sh && ./wtf.sh</code></pre>
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/76937659/153705486-44e6c1b2-74fa-4d44-be1c-36c8fdb83331.gif"/>
+</p>
